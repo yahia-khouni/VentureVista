@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Example</title>
+
+    <link rel="stylesheet" href="/index/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="">
+
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Venture Vista</h2>
+        <nav class="navigation">
+            <a href="/">Home</a>
+            <a href="/campgrounds">Campgrounds</a>
+            <a href="/campgrounds/new">Create Campground</a>
+        </nav>
+    </header>
+
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+
+    <div class="camp">
+        <div class="title">
+            <h1>Search and View Our Campgrounds</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter location" class="center">
+            <button onclick="searchLocation()">Search</button>
+        </div>
+        <div id="searchResult"></div>
+    </div>
+
+    <% for (let campground of campgrounds) { %>
+        <div class="campExample">
+            <div class="content">
+                <div class="img">
+                    <img src="<%= campground.image %>" alt="">
+                </div>
+                <div class="description">
+                    <h2>
+                        <%= campground.title %>
+                    </h2>
+                    <p>
+                        <%= campground.description %>
+                    </p>
+                    <form action="/campgrounds/<%= campground._id %>">
+                        <button>View</button> <!-- Moved button here -->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <% } %>
+
+
+            <script src="/index/main.js"></script>
+</body>
+
+</html>

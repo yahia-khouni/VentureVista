@@ -1,0 +1,132 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+
+body {
+    background: url(/new/photo.jpg) no-repeat;
+    /* background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;  */
+}
+
+.nav {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+header h2 {
+    cursor: pointer;
+}
+
+.navigation {
+    margin-right: 100px; /* Adjust margin as needed */
+}
+
+.logo {
+    
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    margin-left: 35px;
+}
+
+.navigation a {
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.cont{
+    background-color: #fff;
+}
+
+/* .campground-form {
+    position: relative;
+    width: 140%;
+    max-width: 400px;
+    height: auto;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    margin: auto; 
+}
+
+.campground-form h2 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.butn {
+    width: 100%;
+    max-width: 300px;
+    height: 45px;
+    background: #1d3548;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    margin: 20px auto;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    color: #ffffffcd;
+    pointer-events: none;
+    transition: 0.75s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -1px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+} */

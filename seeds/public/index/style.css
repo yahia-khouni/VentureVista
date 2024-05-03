@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+header {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+header h2 {
+    cursor: pointer;
+}
+
+.navigation {
+    margin-right: 100px; /* Adjust margin as needed */
+}
+
+.logo {
+    
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    margin-left: 35px;
+}
+
+.navigation a {
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+/*map*/
+
+#map {
+    height: 400px;
+    border-radius: 37px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+   background: url(/index/photo.jpg) no-repeat center fixed;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    margin-top: 7px;
+    width: 100%;
+    font-size: 5px;
+}
+
+.title h1 {
+    margin: 0; 
+    text-align: center;
+    color: #fff ;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 30px; 
+    width: 100%; 
+}
+
+.search-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+}
+
+input {  
+    margin: 8px;
+    font-size: 24px; 
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 70%;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.campExample button {
+    background-color: rgb(51, 81, 228);
+    color : #fff ;
+    margin : 15px;
+    padding : 3px;
+}
+/* CSS for custom marker */
+.custom-icon {
+    position: relative;
+}
+
+.marker-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(50, 50, 249); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.city-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px; /* Adjust font size as needed */
+    color: white; /* Change color as needed */
+}
+
+.custom-icon.larger .marker-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/*Campgrounds examples*/
+.campExample {
+    margin-left: 80px;
+    margin-right: 50px;
+    background-color: #fff;
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.campExample .content {
+    display: flex;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+.campExample .img {
+    flex: 1;
+    height: 300px;
+    width: auto;
+}
+.campExample .img1 {
+    flex: 1;
+    height: 300px;
+    background: url(/index/p1.jpg) no-repeat center/cover; /* Adjusted */
+}
+
+.campExample .description {
+    flex: 1;
+    padding: 20px;
+}
+
+.campExample .description p {
+    margin: 0;
+}
+
+p {
+    color: black;
+}

@@ -1,0 +1,185 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+} */
+body{
+    background: url(/show/photo.jpg) no-repeat center center;
+    color: #000;
+}
+
+header {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.navigation a {
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+
+
+
+/* .page-container {
+    display: flex;
+    align-items: space-around;
+    margin-top: 50px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(3, 91, 3);
+    background: rgb(191, 238, 191);
+    border: 30px solid #fff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 100px;
+    backdrop-filter: blur(3px);
+
+}
+
+.image h3 {
+    margin-top: -30px;
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+.container1 .image {
+    height: 200px;
+    width: 70%;
+    background-size: cover;
+    height: 300px;
+}
+
+.rest {
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    border: 1px;
+    border-color: rgb(204, 201, 201);
+    border-style: solid;
+}
+
+.rest label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.rest p {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.rest label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(88, 85, 85);
+}
+
+.rate {
+    margin-top: 100px;
+    position: relative;
+    height: 509px;
+    width: 40%;
+    margin-right: 20px;
+    border: 1px solid rgb(204, 201, 201);
+    backdrop-filter: blur(3px);
+}
+
+.rate .title {
+    background: #fff;
+    color: black;
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star.filled {
+    color: gold;
+}
+
+.rate input[type="text"] {
+    width: calc(100% - 20px); 
+    margin: 10px; 
+    padding: 7px;
+}
+
+.rate button {
+    margin-top: 15px;
+    padding: 8px 30px; 
+    background-color: rgb(132, 199, 132);
+    color: #fffffff3;
+}
+
+
+
+.rate h2,
+.rate h3,
+.star-rating,
+input[type="text"],
+
+button {
+    margin-bottom: 35px;
+    cursor: pointer;
+
+}
+.container1 button {
+    padding : 7px;
+    border-radius: 4px;
+    color : black;
+    background-color: #fff;
+}
+
+.rate h2 {
+    text-align: center;
+    margin : 10px ;
+}
+
+.rate h3 {
+    text-align: center;
+    font-size: 25px;
+    margin : 10px ;
+    margin-bottom: -4px;
+}  */
